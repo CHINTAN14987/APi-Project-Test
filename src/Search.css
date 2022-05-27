@@ -1,0 +1,22 @@
+.Display_Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  border: 1px solid grey;
+}
+
+.rating_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Display_Con {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.searchWrapper {
+  display: flex;
+  justify-content: start;
+  width: 70%;
+}
